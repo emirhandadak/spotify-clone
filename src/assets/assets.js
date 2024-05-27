@@ -41,6 +41,11 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from './song4.mp3'
+import song5 from './song5.mp3'
+import song6 from './song6.mp3'
+import song7 from './song7.mp3'
+import song8 from './song8.mp3'
 
 export const assets = {
     bell_icon,
@@ -74,42 +79,42 @@ export const albumsData = [
         id:0,
         name: "Top 50 Global",
         image: img8,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Your weekly update of the most played tracks - Global",
         bgColor:"#2a4365"
     },
     {   
         id:1,
-        name: "Top 50 India",
+        name: "Top 50 Turkey",
         image: img9,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Your weekly update of the most played tracks - Turkey",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Trending India",
+        name: "Viral 50 - Turkey",
         image: img10,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Your daily update for the most viral tracks right now - Turkey",
         bgColor:"#742a2a"
     },
     {   
         id:3,
         name: "Trending Global",
         image: img16,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Your weekly update of the most played tracks right now - Global",
         bgColor:"#44337a"
     },
     {   
         id:4,
-        name: "Mega Hits,",
+        name: "This Is Motive",
         image: img11,
-        desc:"Your weekly update of the most played tracks",
+        desc:"This is Motive. The most important tracks, all in one playlist.",
         bgColor:"#234e52"
     },
     {   
         id:5,
-        name: "Happy Favorites",
+        name: "NKVT",
         image: img15,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Turkey's tightest playlist Cover : ElMusto",
         bgColor:"#744210"
     }
 ]
@@ -117,66 +122,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "Say Goodbye 2.0",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        desc:"Motive,Ufo361,YKKE",
+        duration:"3:29"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "A La Carte",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        desc:"Segah,Kleo,Motive",
+        duration:"2:35"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "I Ain’t Worried",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        desc:"OneRepublic",
+        duration:"2:29"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "FEİN!",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        file:song4,
+        desc:"Travis Scott,Playboi Carti",
+        duration:"3:14"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Leben Lang",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        file:song5,
+        desc:"Mero",
+        duration:"2:13"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        name: "MAGAZIN",
+        image: img6    ,
+        file:song6,
+        desc:"UZI,Ufo361",
+        duration:"3:03"
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "EXORCIST",
         image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        file:song7,
+        desc:"Motive",
+        duration:"3:50"
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "SEZEN AKSU",
         image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        file:song8,
+        desc:"LVBEL C5",
+        duration:"2:30"
     }
 ]
